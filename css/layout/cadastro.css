@@ -1,0 +1,91 @@
+.telaCadastro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 768px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.cadastro {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1f1f1;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.cadastro button {
+    padding: 15px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.cadastro button:hover {
+    background-color: #f1f1f1;
+}
+
+.cadastro h1 {
+    color: #f1f1f1;
+}
+
+.cadastro p {
+    color: #f1f1f1;
+}
+
+
+.linkLogin {
+    background-color: #f1ff75;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.linkLogin:hover{
+background-color: #f1f1f1;
+}
+
+.linkLogin p {
+    color: #000;
+}
+
+.linkLogin a{
+    text-decoration: none;
+}
+
+
+.linkLogin a:hover{
+    color: #2a4aff;
+}
+
+#voltar {
+    background-color: #f1ff75;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#voltar:hover {
+    background-color: #f1f1f1;
+}
+
+#nome {
+    width: 100%;
+    height: 30px;
+}
+
+#email {
+    width: 100%;
+    height: 30px;
+}
+
+#senha {
+    width: 100%;
+    height: 30px;
+}

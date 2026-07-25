@@ -6,4 +6,6 @@
 @import "./layout/header.css";
 @import "./layout/principal.css";
 @import "./layout/footer.css";
+@import "./layout/cadastro.css";
+@import "./layout/login.css";
 @import "./base/body.css"
