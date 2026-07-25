@@ -1,0 +1,41 @@
+.rodape {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #000;
+    width: 768px;
+    border-radius: 5px;
+    margin-top: 20%;
+    gap: 10px;
+}
+
+.rodape h2 {
+    width: 768px;
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+.listaContato {
+    width: 100%;
+    color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.direitos-site {
+    width: 100%;
+    color: #f1f1f1;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.direitos-site a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.direitos-site a:hover {
+    color: #2a4aff;
+}
+

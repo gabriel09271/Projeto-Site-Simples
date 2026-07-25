@@ -50,3 +50,7 @@
     transform: scale(1.25);
 }
 
+.menu img {
+    width: 18px;
+    height: 14px;
+}
