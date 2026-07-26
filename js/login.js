@@ -12,7 +12,7 @@ form.addEventListener('submit', (evento) => {
     try{
         const usuario = login(email, senha)
         alert(`Bem vindo ${usuario.email},  Aproveite os nossos serviços!`)
-        window.location.href = "../html/index.html"
+        window.location.href = "../index.html"
     } catch(erro){
         aviso.textContent = erro.message
     }

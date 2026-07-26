@@ -15,7 +15,7 @@ form.addEventListener('submit', (evento) => {
     try{
         registrar(usuario)
         alert('Cadastro realizado! Faça login agora para continuar.')
-        window.location.href = '../html/login.html'
+        window.location.href = '../index.html'
     } catch(erro){
         aviso.textContent = erro.message
     }
